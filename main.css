@@ -3,7 +3,7 @@
   padding:0;
   border:0;
 }
-/*remove color: #FFFFFF from child properties once finalized*/
+
 html {
   font-size: 10px
 }
@@ -13,26 +13,92 @@ body {
   color: #FFFFFF;
 }
 
-section {
+main {
   display: flex;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-/*  justify-content: flex-start;*/
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+
+/*#intro-div{
+  padding: 1rem;
+}*/
+
+section {
+  width: 50%;
+  height:100vh;
 }
 
 h1 {
   font-family: "Philosopher", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2.4rem;
 }
 
-.resume
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#button-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.resume,
+.contact {
+  width: 10.5rem;
+  height: 4.2rem;
+  background-color: #18001B;
+  color: #FFFFFF;
+  border: .2rem solid #FFFFFF;
+
+}
+
+#resume-id {
+  margin-right: 1rem;
+}
+.mini-img {
+  width: 2rem;
+  padding-right: 1rem;
+}
+
+/*.facebook-link,
+.instagram-link {
+  float: right;
+  width: 3.5rem;
+  padding: 0 2rem 0 0;
+}*/
 
 .box {
-  width: 30%;
-  font-size: 2rem;
+  text-align: center;
+  width: 33.33%;
+  height: 33.33%;
+  font-size: 1.2rem;
 }
 
-.intro,
+.box-img {
+  padding: 1rem;
+}
+
 .portfolio {
   background-color: #18001B;
+}
+
+.intro {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #18001B;
+  width: 66.66%;
 }
 
 .fine-art,
@@ -50,12 +116,37 @@ h1 {
   background-color: #2D0638;
 }
 
-.nav-dots {
-  list-style-type: square;
+.flexslider{
+  position: relative;
+  background-image: url("img/Buck_RGB_border.png");
+  background-repeat: no-repeat;
+  background-position: 0px -130px;
+  background-size: cover;
 }
 
-.art-image {
-  width: 40%;
-  height: auto;
+.three-dot {
+  position: absolute;
+  left: 63rem;
+  width: 5rem;
+}
+
+.left-slider-arrow {
+  position: absolute;
+  top: 38.25rem;
+  left: 2.3rem;
+  width: 4rem;
+}
+
+.right-slider-arrow {
+  position: absolute;
+  top: 38.25rem;
+  left: 65.5rem;
+  width: 4rem;
+}
+
+@media and screen(min-width: 320px)
+
+.bio {
+  flex-direction: column;
 }
 
