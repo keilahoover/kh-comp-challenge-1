@@ -4,7 +4,7 @@ I utilized flexbox to create a responsive layout. I have a grandparent flex, par
 
 
 # Original Comp
-![Original Static Comp](static-comp-challenge-1.jpg)
+![Original Static Comp](projects/static-comp-challenge-1.jpg)
 
 # Redesign Comp 
-![Redesign Comp](Screenshot 2017-12-19 13.05.46.png)
+![Redesign Comp](Screenshots/Screenshot 2017-12-19 13.05.46.png)
