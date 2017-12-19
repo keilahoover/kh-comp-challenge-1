@@ -144,9 +144,37 @@ p {
   width: 4rem;
 }
 
-@media and screen(min-width: 320px)
+@media screen and (max-width: 480px) {
+
+main {
+  flex-direction: column-reverse;
+}
 
 .bio {
-  flex-direction: column;
+  width: 100%;
 }
+
+.box {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100px;
+}
+
+.flexslider {
+  width: 100%;
+  background-position: center;
+}
+
+.intro {
+  width: 100%;
+  height: 300px;
+}
+
+#intro-div {
+  height: 100%;
+  padding-top: 13rem;
+}
+
+}
+  
 
