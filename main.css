@@ -1,0 +1,61 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+/*remove color: #FFFFFF from child properties once finalized*/
+html {
+  font-size: 10px
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  color: #FFFFFF;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+/*  justify-content: flex-start;*/
+}
+
+h1 {
+  font-family: "Philosopher", sans-serif;
+}
+
+.resume
+
+.box {
+  width: 30%;
+  font-size: 2rem;
+}
+
+.intro,
+.portfolio {
+  background-color: #18001B;
+}
+
+.fine-art,
+.about,
+.shop {
+  background-color: #673B5F;
+}
+
+.digital-art,
+.services {
+  background-color: #CE995D;
+}
+
+.photography {
+  background-color: #2D0638;
+}
+
+.nav-dots {
+  list-style-type: square;
+}
+
+.art-image {
+  width: 40%;
+  height: auto;
+}
+
